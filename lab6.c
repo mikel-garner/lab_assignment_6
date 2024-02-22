@@ -15,6 +15,7 @@ int search(int numbers[], int low, int high, int value)
         else if(value == numbers[(low+high)/2]){ //check if value equals the value at the mid index
             return (low+high)/2; //if so, return mid to indicate the index where the value was found
         }
+	//For line 15, Both TAs said code was fine and that there was a mistake in the rubric
 }
 
 void printArray(int numbers[], int sz)
